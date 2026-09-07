@@ -35,23 +35,27 @@ A maioria dos usuários hesita em checar credenciais em sites de terceiros por r
 ### Instalação e Execução
 
 1. Clone este repositório:
-```bash
+```
 git clone https://github.com/vhcarlim/Password_Check_HIBP.git
 cd Password_Check_HIBP
-Compile e execute a aplicação:
-
-Bash
+````
+# Compile e execute a aplicação:
+````
 cargo run --release
+````
+
 🛡️ Auditoria de Dependências e Segurança
 Este projeto adota controle estrito de Supply Chain Security. O arquivo Cargo.lock contém os hashes criptográficos exatos de todas as bibliotecas dependentes.
 
 Para auditar as dependências contra vulnerabilidades conhecidas cadastradas no RustSec Advisory Database:
 
-Bash
 # Instalação do auditor oficial da comunidade Rust
+````
 cargo install cargo-audit
-
+````
 # Execução da análise de segurança
+````
 cargo audit
+````
 📄 Licença
 Distribuído sob a licença MIT. Veja LICENSE para mais informações.
